@@ -14,7 +14,7 @@
 ## How to use Shareplum to upload or delete files to Sharepoint
 
 1.	In the 'config.json' file swap the username and password with that of the one you will use for your Sharepoint. 
-![p1](uploads/17ba0209317c8e519473cea3663f164c/p1.png)
+
 
 2.	Change the url variable to match the general Sharepoint url and the site variable to match that of the specific site within that Sharepoint you want to access. 
 
