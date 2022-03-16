@@ -67,9 +67,7 @@ In project.py you would just replace whats in the quotation marks with the direc
 ## Resources
 I also found this video very helpful with understanding the process of uploading to Sharepoint through Shareplum - https://www.youtube.com/watch?v=BV6SLhOF3zU
 
-<details>
-<summary> :book:  Documentation and Research</summary>
+<summary> :book:  Useful Videos</summary>
 
-:closed_book: [User Personas & Stories](https://stgit.dcs.gla.ac.uk/tp3-2020-SE04/se04-main/-/wikis/User-Stories-and-Personas/)   
-</details>
+:notebook: [Upload and Delete file to Sharepoint with Python](https://www.youtube.com/watch?v=BV6SLhOF3zU)   
 
