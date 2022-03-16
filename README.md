@@ -12,7 +12,11 @@
 - Implementing Power Automate functionality over microsoft sharepoint.
 
 ## Microsoft Developer account
-The Microsoft Developer Account can be acquired through a free, renewable 90-day Microsoft 365 E5 developer subscription, which can be set up through this [link](https://developer.microsoft.com/en-us/microsoft-365/profile)
+The Microsoft Developer Account can be acquired through a free, renewable 90-day Microsoft 365 E5 developer subscription, which can be set up through this [link](https://developer.microsoft.com/en-us/microsoft-365/profile).
+
+We found a microsoft developer account the most appropriate solution to creating a sharepoint that is compatible with shareplum. This is because it is free and does not have the restrictions that a sharepoint that was set up with a university login has, as we found these sharepoints to have problems connecting with shareplum. The purpose of the account is to set up a Sharepoint so it can be added to the `config.json` file and have files be transferrable through the python script. 
+
+The developer account provides 25 user licenses that all can use the Sharepoints and Planners set up from the developer account. 
 
 ## How to use Shareplum to upload or delete files to Sharepoint
 
@@ -59,3 +63,13 @@ If it is your first time running it the Flow will prompt you to sign in with you
 In the `config.json` file swap the username and password with that of the one you will use for your Sharepoint. Change the url variable to match the general Sharepoint url and the site variable to match that of the specific site within that Sharepoint you want to access. `doc_library` is set to "Shared Documents" which is basically the main directory, if you have sub-folders within that you can add them on like "Shared Documents/[insert name of sub-folder]".
 
 In project.py you would just replace whats in the quotation marks with the directory path to the file you want to upload and then if you want to upload a file then uncomment the line of code under `# Upload file` and it's the same process with `Delete file`.
+
+## Resources
+I also found this video very helpful with understanding the process of uploading to Sharepoint through Shareplum - https://www.youtube.com/watch?v=BV6SLhOF3zU
+
+<details>
+<summary> :book:  Documentation and Research</summary>
+
+:closed_book: [User Personas & Stories](https://stgit.dcs.gla.ac.uk/tp3-2020-SE04/se04-main/-/wikis/User-Stories-and-Personas/)   
+</details>
+
