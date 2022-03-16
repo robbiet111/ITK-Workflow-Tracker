@@ -11,6 +11,9 @@
 - Using python API (Shareplum) to connect to microsoft sharepoint.
 - Implementing Power Automate functionality over microsoft sharepoint.
 
+## Microsoft Developer account
+The Microsoft Developer Account can be acquired through a free, renewable 90-day Microsoft 365 E5 developer subscription, which can be set up through this `[link](https://developer.microsoft.com/en-us/microsoft-365/profile)`
+
 ## How to use Shareplum to upload or delete files to Sharepoint
 
 1.	In the `config.json` file swap the username and password with that of the one you will use for your Sharepoint. 
