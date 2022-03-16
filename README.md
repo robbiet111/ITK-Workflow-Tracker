@@ -65,7 +65,10 @@ In the `config.json` file swap the username and password with that of the one yo
 In project.py you would just replace whats in the quotation marks with the directory path to the file you want to upload and then if you want to upload a file then uncomment the line of code under `# Upload file` and it's the same process with `Delete file`.
 
 ## Resources
-I also found this video very helpful with understanding the process of uploading to Sharepoint through Shareplum:
+We found this video very helpful with understanding the process of uploading to Sharepoint through Shareplum:
 
 :notebook: [Upload and Delete file to Sharepoint with Python](https://www.youtube.com/watch?v=BV6SLhOF3zU)   
 
+We also found this video useful in setting up the Microsoft Developer Account and understaning its features:
+
+:notebook: [Set-up Office 365 Developer Account](https://www.youtube.com/watch?v=fZp8wiBJHJg)
