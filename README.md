@@ -59,7 +59,9 @@ If it is your first time running it the Flow will prompt you to sign in with you
 
 ![s3.png](documentation_photos/s3.png)
 
-## How to run example_test
+## How to run shareplum_example
+`shareplum_example` provides an example on how to use Shareplum do upload files straight from the users machine to the connected sharepoint through a python script.
+
 In the `config.json` file swap the username and password with that of the one you will use for your Sharepoint. Change the url variable to match the general Sharepoint url and the site variable to match that of the specific site within that Sharepoint you want to access. `doc_library` is set to "Shared Documents" which is basically the main directory, if you have sub-folders within that you can add them on like "Shared Documents/[insert name of sub-folder]".
 
 In project.py you would just replace whats in the quotation marks with the directory path to the file you want to upload and then if you want to upload a file then uncomment the line of code under `# Upload file` and it's the same process with `Delete file`.
