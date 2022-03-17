@@ -43,7 +43,7 @@ The developer account provides 25 user licenses that all can use the Sharepoints
 
 ## How to Create & Update Planner Tasks from Excel
 
-1.	From Excel Spreadsheet that is within the SharePoint  associated with the Planner you wish to create tasks in select the 'Data tab.
+1.	From Excel Spreadsheet that is within the SharePoint  associated with the Planner you wish to create tasks in select the `Data` tab.
 
 ![s1a.png](documentation_photos/s1a.png)
 
