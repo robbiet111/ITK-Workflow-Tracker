@@ -20,23 +20,25 @@ The developer account provides 25 user licenses that all can use the Sharepoints
 
 ## How to use Shareplum to upload or delete files to Sharepoint
 
-1.	In the `config.json` file swap the username and password with that of the one you will use for your Sharepoint. 
+1. Download the `shareplum_example` folder.
+
+2.	In the `config.json` file within swap the username and password with that of the one you will use for your Sharepoint. 
 ![p1.png](documentation_photos/p1.png)
 
-2.	Change the url variable to match the general Sharepoint url and the site variable to match that of the specific site within that Sharepoint you want to access. 
+3.	Change the url variable to match the general Sharepoint url and the site variable to match that of the specific site within that Sharepoint you want to access. 
 
-3.	`doc_library` is set to "Shared Documents" which is basically the main directory, if you have sub-folders within that you can add them on like "Shared Documents/[insert name of sub-folder]".
+4.	`doc_library` is set to "Shared Documents" which is basically the main directory, if you have sub-folders within that you can add them on like "Shared Documents/[insert name of sub-folder]".
 
-4.	In project.py replace what is in the quotation marks for `file_dir_path` with the local directory path to the file you want to upload.
+5.	In project.py replace what is in the quotation marks for `file_dir_path` with the local directory path to the file you want to upload.
 ![p4.png](documentation_photos/p4.png)
 
-5.	If you want to upload a file then uncomment the line of code under `# Upload file` (make sure the line of code under `# Delete file` is commented out)
+6.	If you want to upload a file then uncomment the line of code under `# Upload file` (make sure the line of code under `# Delete file` is commented out)
 ![p5.png](documentation_photos/p5.png)
 
-6.	If you want to delete a file then uncomment the line of code under `# Delete file` (make sure the line of code under `# Upload file` is commented out)
+7.	If you want to delete a file then uncomment the line of code under `# Delete file` (make sure the line of code under `# Upload file` is commented out)
 ![p6.png](documentation_photos/p6.png)
 
-7.	Finally run the `project.py` file and the entered file will appear in Sharepoint
+8.	Finally run the `project.py` file and the entered file will appear in Sharepoint
 
 
 ## How to Create & Update Planner Tasks from Excel
