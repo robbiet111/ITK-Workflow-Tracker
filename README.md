@@ -76,3 +76,7 @@ We found this video very helpful with understanding the process of uploading to 
 We also found this video useful in setting up the Microsoft Developer Account and understaning its features:
 
 - :notebook: [Set-up Office 365 Developer Account](https://www.youtube.com/watch?v=fZp8wiBJHJg)
+
+We were not able to cover all of Power Automate's features and ways it could be useful to the customer as these possibilities are endless. I found this video series extremely useful in understanding how Power Automate works and how to set up my own Flow's:
+
+- :notebook: [Learn to use Power Automate](https://www.youtube.com/watch?v=SUsik0FGzI0&list=PLmHVyfmcRKyy3jmMCBbNaDCNNXIZdeUY1)
